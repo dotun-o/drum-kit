@@ -13,7 +13,10 @@
 
 <body>
 <h1>DRUM PAD</h1>
-<p>Press matching keys on keyboard.</p>
+<p>
+    Press matching keys on keyboard<br>
+    (or click/tap buttons)
+</p>
 
 <div id="console">
     <button data-name="clap" data-key="65">
