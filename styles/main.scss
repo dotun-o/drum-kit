@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,700");
+
+$sm-unit: 10px;
+$md-unit: 20px;
+$lg-unit: 50px;
+
+$dark-brown: rgb(60, 55, 60);
+$light-brown: rgb(255, 245, 200);
+
+@mixin reset {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+@mixin lt-on-dk {
+    background-color: $dark-brown;
+    color: $light-brown;
+}
+
+@mixin dk-on-lt {
+    background-color: $light-brown;
+    color: $dark-brown;
+}
+
+* {
+    @include reset;
+}
+
+html, body {
+    @include lt-on-dk;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+#console {
+    margin: auto;
+    max-width: 400px;
+}
+
+#console button {
+    margin: $sm-unit;
+    border: 1px solid $light-brown;
+    border-radius: $sm-unit;
+    padding: $md-unit;
+    width: ($lg-unit * 2);
+    @include lt-on-dk;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+h1, p {
+    margin: $md-unit auto;
+}
+
+a {color: $light-brown;}
+
+#toggle {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.key {
+    display: block;
+    font-size: $lg-unit;
+}

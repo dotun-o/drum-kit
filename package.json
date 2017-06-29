@@ -1,0 +1,29 @@
+{
+  "name": "drum-kit",
+  "version": "1.0.0",
+  "description": "Drum Kit Webapp",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotun-o/drum-kit.git"
+  },
+  "keywords": [
+    "drum",
+    "kit",
+    "webapp"
+  ],
+  "author": "Dotun Ogunsakin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotun-o/drum-kit/issues"
+  },
+  "homepage": "https://github.com/dotun-o/drum-kit#readme"
+}
