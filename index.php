@@ -8,11 +8,11 @@
 
     <link id="main-stylesheet" href="styles/main.css" rel="stylesheet">
 
-    <title>Drum Pads</title>
+    <title>Drum Kit</title>
 </head>
 
 <body>
-<h1>DRUM PAD</h1>
+<h1>DRUM KIT</h1>
 <p>
     Press matching keys on keyboard<br>
     (or click/tap buttons)
