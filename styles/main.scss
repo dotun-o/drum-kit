@@ -48,6 +48,7 @@ html, body {
     @include lt-on-dk;
     font-family: "Open Sans", sans-serif;
     cursor: pointer;
+    user-select: none;
     transition: 0.1s;
 }
 

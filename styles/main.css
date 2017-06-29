@@ -25,7 +25,8 @@ html, body {
   color: #fff5c8;
   font-family: "Open Sans", sans-serif;
   cursor: pointer;
-  transition: 0.5s; }
+  user-select: none;
+  transition: 0.1s; }
 
 h1, p {
   margin: 20px auto; }
